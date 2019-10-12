@@ -2,7 +2,9 @@
 @import url('texts.css');
 
 /* ----------------------------------- */
-
+body{
+    background: #141d25
+}
 .header{
     font-size: 20px;
     line-height: 1.4;
@@ -13,12 +15,13 @@
 }
 .section{
     padding: 30px 0;
+    color: #3475ee;
 }
 .container, .col-lg-6{
     /* border: 1px solid red; */
 }
 .form{
-    border: 5px solid #0f89ee;
+    border: 5px solid #3475ee;
     padding: 50px 20px
 }
 .form input{
@@ -38,4 +41,7 @@
 }
 .feature{
     margin-top: 60px;
+}
+.col-lg-12 h2{
+    color: #fff
 }
