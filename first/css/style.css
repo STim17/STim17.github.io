@@ -1,0 +1,41 @@
+@import url('main.css');
+@import url('texts.css');
+
+/* ----------------------------------- */
+
+.header{
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 60px auto;
+}
+.header span{
+    display: block; 
+}
+.section{
+    padding: 30px 0;
+}
+.container, .col-lg-6{
+    /* border: 1px solid red; */
+}
+.form{
+    border: 5px solid #0f89ee;
+    padding: 50px 20px
+}
+.form input{
+    margin-bottom: 12px;
+}
+.form-header, .section-header{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 900
+}
+.form-btn{
+    background: #0f89ee;;
+    margin: 10px auto;
+}
+.feature-box img{
+    width: 4em
+}
+.feature{
+    margin-top: 60px;
+}
